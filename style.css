@@ -11,7 +11,7 @@ body {
     circle at top left,
     #fbc2eb 0%,
     #d4b5ff 35%,
-    #a6dcef 85%,
+    #a6dcef 75%,
     #f5f7fa 100%
   );
 }
@@ -60,17 +60,17 @@ body {
 
 .sidebar-nav {
   list-style-type: none;
-  gap: 50px;
   color: #000838;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 .sidebar-list {
-  /* border: 2px solid lime;*/
   border-radius: 20px;
-  padding: 8px;
-  margin: 8px;
+  padding: 5px;
   text-align: center;
+  margin: 8px;
 }
 
 .sidebar-list:hover {
@@ -78,4 +78,64 @@ body {
   cursor: pointer;
   color: #23002b;
   background: linear-gradient(135deg, #fbc2eb 0%, #d4b5ff 50%, #a6dcef 100%);
+  transition: 0.5s ease;
+}
+
+/*card section*/
+
+.body {
+  display: flex;
+}
+
+/* Priority bar container */
+.priority-bar {
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.main-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-content {
+  flex: 1;
+  padding: 10px;
+}
+
+.deadline h4 {
+  color: #23002b;
+  margin: 0;
+  padding: 7px;
+  font-size: 16px;
+}
+
+.deadline p {
+  color: #000838;
+  text-align: center;
+  padding: 4px;
+  margin: 0;
+}
+
+.deadline {
+  border-radius: 16px;
+  box-shadow: 0 0 10px #000838;
+  background: linear-gradient(135deg, #fbc2eb 0%, #d4b5ff 50%, #a6dcef 100%);
+}
+
+.green {
+  border: 3px solid #4caf50;
+  box-shadow: 0 0 10px #b6ffb9;
+}
+
+.yellow {
+  border: 3px solid #ffc107;
+  box-shadow: 0 0 10px #ffe8a3;
+}
+
+.red {
+  border: 3px solid #f44336;
+  box-shadow: 0 0 10px #420000;
 }
