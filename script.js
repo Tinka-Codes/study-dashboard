@@ -40,3 +40,14 @@ updateDeadlines();
 
 // Update every day (optional)
 setInterval(updateDeadlines, 1000 * 60 * 60);
+
+document.querySelectorAll('input[type="checkbox"]').forEach((cb) => {
+  // Load the state of THIS checkbox
+  const saved = localStorage.getItem(cb.id);
+  if (saved === 'true') cb.checked = true;
+
+  // Save the state of THIS checkbox individually
+  cb.addEventListener('change', () => {
+    localStorage.setItem(cb.id, cb.checked);
+  });
+});
