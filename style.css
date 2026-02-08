@@ -155,7 +155,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+  gap: 32px;
 }
 
 .card {
