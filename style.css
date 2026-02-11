@@ -258,6 +258,11 @@ summary {
   font-weight: 550;
 }
 
+a {
+  text-decoration: none;
+  color: #000838;
+}
+
 /*pastel colors:
 --pastel-coral: #ffadad;
   --pastel-peachy-orange: #ffd6a5;
