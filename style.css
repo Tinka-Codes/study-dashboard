@@ -48,7 +48,7 @@ body {
   background: #f5f5f58e;
   backdrop-filter: blur(10px);
   flex-shrink: 0;
-  width: 220;
+  width: 220px;
 }
 
 .sidebar-title {
@@ -263,17 +263,65 @@ a {
   color: #000838;
 }
 
-/*pastel colors:
---pastel-coral: #ffadad;
-  --pastel-peachy-orange: #ffd6a5;
-  --pastel-lemon: #fdffb6;
-  --pastel-lime: #caffbf;
-  --pastel-aqua: #9bf6ff;
-  --pastel-sky-blue: #a0c4ff;
-  --pastel-lilac: #bdb2ff;
-  --pastel-pink-lavender: #ffc6ff;
-  --pastel-sand: #fffffc;
-  --pastel-light-gray: #e0e0e0;
-  
+/* -------- TABLETS -------- */
+@media (max-width: 1024px) {
+  .body {
+    flex-direction: column;
+  }
 
-*/
+  .sidebar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .main-top {
+    justify-content: center;
+  }
+
+  .priority-bar {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* -------- MOBILE -------- */
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .focus-flow {
+    align-items: center;
+    text-align: center;
+  }
+
+  .cards-container {
+    gap: 20px;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+}
+
+/* -------- SMALL PHONES -------- */
+@media (max-width: 480px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .sidebar-title {
+    font-size: 22px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+}

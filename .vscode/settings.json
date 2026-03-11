@@ -1,0 +1,29 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#ffe9f6e5",
+    "activityBar.background": "#ffe9f6e5",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#5e9f00",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#ffe9f6e5",
+    "statusBar.background": "#ffb6e1e5",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#ff83cce5",
+    "statusBarItem.remoteBackground": "#ffb6e1e5",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#ffb6e1e5",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#ffb6e199",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.remoteColor": "#ffb6e1e5",
+  "cSpell.words": [
+    "SAPA",
+    "SCOA",
+    "SMTA",
+    "Tinka"
+  ],
+  "liveServer.settings.port": 5501
+}
